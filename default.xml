@@ -9,7 +9,6 @@
 
     <project name="nuttx_apps"  path="apps"/>
 
-    <project name="nuttx_tools"  path="nuttx_tools"/>
 
 </manifest>
 
