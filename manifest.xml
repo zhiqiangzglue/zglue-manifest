@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="zCube" fetch="https://github.com/zglue/" />
+
+    <default revision="zdk" remote="zCube" sync-j="4" />
+
+    <project name="nuttx"  path="nuttx"/>
+
+    <project name="nuttx_apps"  path="apps"/>
+
+    <project name="nuttx_tools"  path="nuttx_tools"/>
+
+</manifest>
+
