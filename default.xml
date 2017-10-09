@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+<!-- fetch is all git command  URL -->
     <remote name="zCube" fetch="https://github.com/zglue/" />
 
+<!-- revision is remote branch name   -->
     <default revision="zdk" remote="zCube" sync-j="4" />
 
+<!-- name is remote project git clone patch , PATH is local path -->
     <project name="nuttx"  path="nuttx"/>
 
     <project name="nuttx_apps"  path="apps"/>
